@@ -13,7 +13,7 @@ public class OperationController {
 	
 	@GetMapping("/wish/{name}")
 	public ResponseEntity<String> showWishMessage(@PathVariable String name){
-		return new ResponseEntity<String>("Good Evening :: "+name,HttpStatus.OK);
+		return new ResponseEntity<String>("Good Afternoon :: "+name,HttpStatus.OK);
 		
 	}
 
